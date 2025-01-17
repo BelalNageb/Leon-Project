@@ -155,7 +155,7 @@ body {
 }
 /* Start Landing */
 .landing {
-  background-image: url(/Imgs/istockphoto-942114106-612x612.jpg);
+  background-image: url(/Imgs/landing.jpg);
   background-size: cover;
   height: calc(100vh - 74px);
 }
