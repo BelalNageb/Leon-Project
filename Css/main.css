@@ -76,6 +76,48 @@ body {
   }
 }
 /* End Compontent  */
+/* Start Scroll Progress */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--maincolor);
+  width: 0%;
+  height: 5px;
+  z-index: 99;
+}
+/* End Scroll Progress */
+/* Start Scroll-top Button */
+.scroll-top {
+  position: fixed;
+  width: 40px;
+  height: 35px;
+  background-color: var(--maincolor);
+  bottom: 60px;
+  right: 45px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  z-index: 88;
+}
+.scroll-top:hover {
+  background-color: var(--fourthcolor);
+}
+@media (max-width: 767px) {
+  .scroll-top {
+    bottom: 45px;
+    right: 30px;
+  }
+}
+/* End Scroll-top Button */
+/* Start Header */
 .header {
   padding: 20px;
 }
