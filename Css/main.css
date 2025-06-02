@@ -203,7 +203,7 @@ body {
 }
 .landingtext {
   text-align: center;
-  width: 400px;
+  max-width: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -219,6 +219,11 @@ body {
   font-size: 17px;
   line-height: 1.7;
   color: gray;
+}
+@media (max-width: 767px) {
+  .landingtext p {
+    font-size: 14px;
+  }
 }
 /* End Landing */
 /* Start Feature */
